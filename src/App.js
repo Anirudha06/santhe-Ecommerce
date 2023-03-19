@@ -1,17 +1,15 @@
-import './App.css';
-import Links from './links';
-import { BrowserRouter } from 'react-router-dom';
+import "./App.css";
+import Links from "./links";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <div className="mainnn" style={{'overflowX': 'hidden'}}>
-    <BrowserRouter>
-    <Links />
-    
-    
-    </BrowserRouter>
-    </div>
+      <div className="mainnn" style={{ overflowX: "hidden" }}>
+        <BrowserRouter>
+          <Links />
+        </BrowserRouter>
+      </div>
     </>
   );
 }
