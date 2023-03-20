@@ -1,19 +1,16 @@
-import React from 'react'
-import './main.css'
-import Navbar from './Navbar'
+import React from "react";
+import "./main.css";
+import Navbar from "./Navbar";
 
 const Main = () => {
   return (
-    <div>
-        <Navbar  />
-        <div className="banner">
-    
-
-
-
-        </div>
+    <div className="">
+      <Navbar />
+      <div className="banner">
+        
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

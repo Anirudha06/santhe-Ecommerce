@@ -1,41 +1,71 @@
-.loginform{
-    width: 300px;
-    height: 300px;
-    border: 1px solid red;
-    display: flex;
-    border-radius: 10px;
-    padding:20px;
-    flex-direction: row;
-}
-.login-main{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*{
+  margin:0;
+  padding: 0;
 }
 
-.formm{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:20px;
-    padding: 10px;
-    border-right: 1px solid blue;
-}
-.formm > p{
-    text-align: center;
 
+
+
+.login-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 500px 400px;
+  background-position: left bottom;
+  background-color: black;
+  background-repeat: no-repeat;
 }
 
-input{
-    border-radius: 10px;
-    padding: 5px;
-    border-color: green;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.formm {
+  width: fit-content;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  position: relative;
+  left:20vw;
+  top:10vh;
+  color: aliceblue;
+  
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-button{
-    padding:5px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: chartreuse;
+.formm> input{
+  width: 200px;
+  border-radius: 3px;
+  padding: 5px;
 }
+
+.formm > label{
+  font-size: 20px;
+  position: relative;
+  top:20px;
+}
+
+.formm > button{
+  width: 170px;
+  padding: 5px;
+}
+
+
+.txt{
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 80px;
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  top:-14vh;
+  left:8vw;
+}
+
+
+
