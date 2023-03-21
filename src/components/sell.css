@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+
+.container{
+    display:flex;
+}
+
+.farmer-name{
+    background: lightgray;
+    border: 1px solid black;
+    padding:1rem;
+    margin:3rem;
+}
+
+.name{
+    padding-left:1rem;
+}
