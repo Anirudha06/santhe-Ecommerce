@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimatePresence } from "framer-motion";
-import { BrowserRouter, Routes, Route , useLocation } from "react-router-dom";
+import { Routes, Route , useLocation } from "react-router-dom";
 import Login from "./components/login";
 import Main from "./components/main";
 import Err from "./components/err";
