@@ -5,15 +5,56 @@
 
 .container{
     display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin:1rem;
+    padding:1rem;
+    font-size: 1.5rem;
+    /* flex-direction: column; */
 }
 
 .farmer-name{
     background: lightgray;
-    border: 1px solid black;
-    padding:1rem;
-    margin:3rem;
+    padding:0.5rem;
+    width:fit-content;
 }
 
 .name{
     padding-left:1rem;
+    display: inline;
+}
+
+.left-container{
+    width:60%;
+}
+
+.items{
+    display:flex;
+    /* flex-wrap: wrap; */
+    /* gap: 1rem; */
+    border-top: 2px solid gray;
+    padding:1rem;
+}
+
+img{
+    height: 10rem;
+    width:15rem;
+    padding: 1.5rem;
+    /* object-fit: cover; */
+}
+
+.item-content p{
+    padding: 1rem;
+    color: gray;
+}
+
+.right-container{
+    width:30%;
+    text-align: center;
+}
+
+.user-detail{
+    width:100%;
+    text-align: left;
+    margin: 1rem;
 }
